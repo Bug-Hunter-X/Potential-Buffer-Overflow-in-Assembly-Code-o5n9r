@@ -1,0 +1,2 @@
+# Assembly Buffer Overflow Bug
+This repository demonstrates a potential buffer overflow vulnerability in a simple assembly code snippet. The code adds two arguments and stores the result, but lacks any bounds checking, which could lead to writing beyond the allocated memory region if the sum of the arguments is too large.  The `bugSolution.asm` file provides a corrected version with bounds checking.
